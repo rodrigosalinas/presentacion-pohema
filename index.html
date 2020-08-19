@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Solución QUITON para el Aeropuerto de Santiago</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="lib/css/night.css">
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<textarea data-template>
+						## Monitoreo de Botoneras de Emergencia
+						---
+						#### Proyecto Quiton
+						---
+						> para Planta SIAV Aeropuerto A. M. B.
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						<img class="stretch" src="img/Aeropuerto.png" />
+					</textarea>
+				</section>
+				<section data-markdown>
+					<textarea data-template>
+						### Ventajas de la Solución
+						- Comunicación Robusta basada en SMS sobre GPRS/3G/4G Dual
+						- Mensajería Encriptada implementando algoritmo OTP (One-Time Password)
+						- Notificación de Eventos de HeartBeat adicionales a los de Activación de Pulsadores
+						- Monitoreo Remoto Seguro sobre Internet (PC, Tablet y Smartphone)
+					</textarea>
+				</section>
+				<section>
+					<h2>Gantt de Proyecto</h2>
+					<table>
+				    	<thead>
+				    		<tr>
+					            <th>Actividad</th>
+					            <th>Tiempo Estimado</th>
+					        </tr>
+				    	</thead>
+				        <tbody>
+				        	<tr>
+					            <td>Ingeniería</td>
+					            <td>1 mes</td>
+					        </tr>
+					        <tr>
+					            <td>Internación de Equipos</td>
+					            <td>1 mes</td>
+					        </tr>
+					        <tr>
+					            <td>Instalación de Equipos</td>
+					            <td>2 meses</td>
+					        </tr>
+					        <tr>
+					            <td>Implementación de Software</td>
+					            <td>3 meses</td>
+					        </tr>
+					        <tr>
+					            <td>Puesta en Marcha</td>
+					            <td>1 mes</td>
+					        </tr>
+					        <tr>
+					            <td>Tiempo Estimado Total</td>
+					            <td>4 meses</td>
+					        </tr>
+				    	</tbody>
+				    </table>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
